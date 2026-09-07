@@ -1,0 +1,32 @@
+#cores em python
+
+codigo \033[style; text; background m
+
+style:
+
+0 = none, 
+1 = bold, 
+4 = underline, 
+7 = negative
+
+text: 
+
+30 = white, 
+31 = red, 
+32 = green, 
+33 = yellow, 
+34 = blue, 
+35 = purple, 
+36 = cyan, 
+37 = gray
+
+background: 
+
+40 = white,
+41 = red,
+42 = green,
+43 = yellow,
+44 = blue,
+45 = purple,
+46 = cyan,
+47 = gray
