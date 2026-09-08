@@ -61,19 +61,19 @@ elif op1 ==  3 and op2 == 2:
 elif op1 == 3 and op2 == 4:
     libra_reais = float(input('Quantas Libras quer converter? £'))
     total = libra_reais / libra * reais
-    print('£{} para Reais deu R${} Reais')
+    print('£{} para Reais deu R${:.2f} Reais')
 elif op1 == 4 and op2 == 1:
     reais_dolar = float(input('Quantos Reais quer converter? R$'))
     total = reais_dolar / reais * dolar
-    print('R${} para Dólares deu U${} Dólares')
+    print('R${} para Dólares deu U${:.2f} Dólares')
 elif op1 == 4 and op2 == 2:
     reais_euros = float(input('Quantos Reais quer converter? R$'))
     total = reais_euros / reais * euro
-    print('R${} para Euros deu €{} Euros')
+    print('R${} para Euros deu €{:.2f} Euros')
 elif op1 == 4 and op2 == 3:
     reais_libra = float(input('Quantos Reais quer converter? R$'))
     total = reais_libra / reais * libra
-    print('R${} para Libras deu £{} Libras')
+    print('R${} para Libras deu £{:.2f} Libras')
 print('\033[1;32mOBRIGADO POR USAR NOSSO MINI CONVERSOR\033[m')
 
 # SE VOCÊ ESTA VENDO ESSE CODIGO NO MEU REPOSITORIO VAI UMA OBSERVAÇÃO: ESSA E A FORMA MAIS COMPLEXA DE FAZER UM CONVERSOR EXISTEM FORMAS MAIS PRATICAS COM BIBLIOTECA E SEM BIBLIOTECA
