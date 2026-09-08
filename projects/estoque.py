@@ -8,4 +8,4 @@ if venda > quantidade:
 elif venda <= quantidade:
     quantidade -= venda
     venda_total = venda * preco
-    print('\033[32mVenda realizada com sucesso!\033[m agora no estoque temos {} e o valor total da venda foi de \033[33mR${:.2f}\033[3' .format(quantidade, venda_total))
+    print('\033[32mVenda realizada com sucesso!\033[m agora no estoque temos {} e o valor total da venda foi de \033[33mR${:.2f}\033[0m' .format(quantidade, venda_total))
